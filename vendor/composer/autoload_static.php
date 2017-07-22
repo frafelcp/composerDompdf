@@ -15,6 +15,10 @@ class ComposerStaticInitd490bd6e121933a3f7f8f8e42e217122
         array (
             'Dompdf\\' => 7,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +29,10 @@ class ComposerStaticInitd490bd6e121933a3f7f8f8e42e217122
         'Dompdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/dompdf/dompdf/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/course',
         ),
     );
 
