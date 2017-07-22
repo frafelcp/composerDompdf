@@ -1,0 +1,20 @@
+{
+    "name": "felix/composer-example",
+    "description": "Ejemplo de uso de Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Felix Castro",
+            "email": "felixcastro1993@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.3",
+        "dompdf/dompdf": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            
+        }
+    }
+}
